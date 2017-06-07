@@ -5,29 +5,20 @@
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
+
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
+sudo apt-get install dconf-cli -y
 
-
-
-rm /tmp/vivaldi-stable.deb
-
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
-
-
-##################################################################################################################
+dconf load /org/cinnamon/desktop/keybindings/ < keyboard-shortcuts-cinnamon.dconf
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "###################    shortcuts loaded   ######################"
 echo "################################################################"
 
+sleep 1
 

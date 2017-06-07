@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -12,22 +12,16 @@
 ##################################################################################################################
 
 
+echo "copying sakura settings "
 
 
-rm /tmp/vivaldi-stable.deb
+[ -d $HOME"/.config/sakura" ] || mkdir -p $HOME"/.config/sakura"
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
+cp settings/sakura/sakura.conf ~/.config/sakura/
 
 
-##################################################################################################################
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "#########       sakura settings have been copied    ############"
 echo "################################################################"
-
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,23 +11,17 @@
 #
 ##################################################################################################################
 
+[ -d $HOME"/.config/autostart" ] || mkdir -p $HOME"/.config/autostart"
 
 
+echo "Copy/pasting fix for dropbox"
 
-rm /tmp/vivaldi-stable.deb
+cp settings/dropbox/* ~/.config/autostart/
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
+dropbox autostart n
 
-rm /tmp/vivaldi-stable.deb
-
-
-##################################################################################################################
+#[ -f $HOME"/.config/autostart/dropbox.desktop" ] && rm  $HOME"/.config/autostart/dropbox.desktop"
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "#########       dropbox fix  installed          ################"
 echo "################################################################"
-
-

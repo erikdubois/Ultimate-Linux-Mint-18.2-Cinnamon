@@ -12,22 +12,20 @@
 ##################################################################################################################
 
 
+# repo for grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 
 
-rm /tmp/vivaldi-stable.deb
+# getting new info of this new repo
+sudo apt-get -y update
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
+# installing
+sudo apt-get install -y grub-customizer
 
 
-##################################################################################################################
+############################################################################
+
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-

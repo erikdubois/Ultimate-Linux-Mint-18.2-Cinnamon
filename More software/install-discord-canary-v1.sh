@@ -12,22 +12,14 @@
 ##################################################################################################################
 
 
+rm /tmp/discord-canary-0.0.9.deb
 
+wget https://discordapp.com/api/download/canary?platform=linux -O /tmp/discord-canary-0.0.9.deb
+sudo dpkg -i /tmp/discord-canary-0.0.9.deb
 
-rm /tmp/vivaldi-stable.deb
+rm /tmp/discord-canary-0.0.9.deb
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
-
-
-##################################################################################################################
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-

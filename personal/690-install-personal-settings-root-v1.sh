@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,23 +11,23 @@
 #
 ##################################################################################################################
 
-
-
-
-rm /tmp/vivaldi-stable.deb
-
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
-
-
-##################################################################################################################
-
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "#########          root files                   ################"
 echo "################################################################"
 
 
+
+#cp settings/.bashrc ~/
+#cp settings/.gtkrc-2.0 ~/
+#cp settings/.xinitrc ~/
+#cp settings/.zlogin ~/
+#cp settings/.zshrc ~/
+#cp settings/bookmarks ~/.config/gtk-3.0/
+#cp settings/settings.ini ~/.config/gtk-3.0/
+#cp settings/sublimetext/* ~/.config/sublime-text-3/Packages/User/
+
+
+
+echo "################################################################"
+echo "#########          root files installed         ################"
+echo "################################################################"

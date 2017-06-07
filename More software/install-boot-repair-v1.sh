@@ -12,22 +12,16 @@
 ##################################################################################################################
 
 
+# repo for boot-repair
+sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 
 
-rm /tmp/vivaldi-stable.deb
+# getting new info of this new repo
+sudo apt-get -y update
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
-
-
-##################################################################################################################
+# installing
+sudo apt-get install -y boot-repair
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-

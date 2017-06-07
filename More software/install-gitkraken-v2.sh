@@ -12,22 +12,20 @@
 ##################################################################################################################
 
 
+rm /tmp/gitkraken-amd64.deb
 
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb -O /tmp/gitkraken-amd64.deb
+sudo dpkg -i /tmp/gitkraken-amd64.deb
 
-rm /tmp/vivaldi-stable.deb
+rm /tmp/gitkraken-amd64.deb
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
+echo "fixing hardcoded icon"
+old="Icon=app"
+new="Icon=gitkraken"
+location="/usr/share/applications/gitkraken.desktop"
+sudo sed -i s/$old/$new/g $location
 
-rm /tmp/vivaldi-stable.deb
-
-
-##################################################################################################################
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-

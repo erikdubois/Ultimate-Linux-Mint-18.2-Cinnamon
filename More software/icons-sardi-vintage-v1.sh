@@ -14,20 +14,19 @@
 
 
 
-rm /tmp/vivaldi-stable.deb
+rm -rf /tmp/Sardi-Vintage
+git clone https://github.com/erikdubois/Sardi-Vintage /tmp/Sardi-Vintage
+find /tmp/Sardi-Vintage -maxdepth 1 -type f -exec rm -rf '{}' \;
 
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-rm /tmp/vivaldi-stable.deb
+cp -r /tmp/Sardi-Vintage/* ~/.icons/
+rm -rf /tmp/Sardi-Vintage
 
 
-##################################################################################################################
+
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "###################    icons sardi Vintage done  #################"
 echo "################################################################"
-
-
