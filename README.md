@@ -1,4 +1,15 @@
-# Ultimate Linux Mint 18.1 Serena Cinnamon
+# Ultimate Linux Mint 18.2 Serena Cinnamon
+
+
+
+
+TO BE EDITED AT A LATER DATE WHEN IT IS NO LONGER BETA!!!!
+
+
+
+
+
+
 
 Let us first take a screenshot of the initial look of Linux Mint 18.1 Serena Cinnamon
 
