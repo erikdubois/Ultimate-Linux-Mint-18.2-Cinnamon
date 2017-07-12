@@ -65,7 +65,7 @@ git config --global user.name "Erik Dubois"
 git config --global user.email "erik.dubois@gmail.com"
 sudo git config --system core.editor nano
 git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=18000'
+git config --global credential.helper 'cache --timeout=100000'
 git config --global push.default simple
 
 

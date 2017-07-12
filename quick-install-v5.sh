@@ -77,7 +77,7 @@ sh install-canon-mg7750-v1.sh
 #*sh install-visual-studio-code-v1.sh
 ##sh install-vivaldi-v2.sh
 #*sh install-wire-v1.sh
-sh install-zsh-v1.sh
+
 ###sh plank-themes-v2.sh
 
 ###sh theme-arc-colora-collection-3.2-v1.sh
@@ -102,21 +102,6 @@ sh hardcodefixer-v1.sh
 
 #sh update-to-the-last-stable-4.9-8-v1.sh
 
-echo
-echo
-echo
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "This is for the script of ZSH - Colouring of your terminal"
-echo "You do not get the chance to type your password"
-echo "Retype this line again and fill in your own username"
-echo "sudo chsh username -s /bin/zsh"
-echo "sudo chsh username -s /bin/zsh"
-echo "sudo chsh username -s /bin/zsh"
-echo "sudo chsh username -s /bin/zsh"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo
-echo "Log off or reboot to see the change in your terminal".
-echo "----------------------------------------------------"
 
 echo "################################################################"
 echo "###################       IL FINALE       ######################"
