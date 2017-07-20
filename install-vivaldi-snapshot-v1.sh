@@ -14,14 +14,10 @@
 
 
 
-rm /tmp/vivaldi-stable.deb
-
-sudo apt install -y libcurl3
-sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.9.818.50-1_amd64.deb -O /tmp/vivaldi-stable.deb
-sudo dpkg -i /tmp/vivaldi-stable.deb
-
-rm /tmp/vivaldi-stable.deb
+sudo add-apt-repository 'deb http://repo.vivaldi.com/archive/deb/ stable main'
+wget -qO- http://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add -
+sudo apt update
+sudo apt install vivaldi-snapshot
 
 
 ##################################################################################################################
