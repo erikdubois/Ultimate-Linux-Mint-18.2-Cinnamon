@@ -105,7 +105,7 @@ Sardi icon collection can be downloaded at sourceforge.
 
 20 icon themes in one.
 
-6 different application icons and 11 kind of folders
+6 different application icons and 11 kinds of folders
 
 http://sourceforge.net/projects/sardi/
 
@@ -134,7 +134,7 @@ Colour codes can be figured out locally with gpick or online via http://www.colo
 
 
 
-##Sardi-extra icons have been installed
+## Sardi-extra icons have been installed
 
 There is also a collection of **Sardi Extra** icons at
 
@@ -159,7 +159,7 @@ For ease of installation I use the script
 More info can be found here : https://github.com/erikdubois/Surfn
 
 
-##Aureola conky collection has been installed
+## Aureola conky collection has been installed
 
 This is an exercise in writing conky configurations in lua syntax.
 
@@ -180,7 +180,7 @@ Easy installation can be done with this script :
 More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-##Change the cursor
+## Change the cursor
 
 I like the breeze snow cursors.
 
@@ -191,7 +191,7 @@ I like the breeze snow cursors.
 
 
 
-##Install the plank and download 100+ theme
+## Install the plank and download 100+ theme
 
 Plank is installed through this script
 
@@ -218,7 +218,7 @@ Sardi icons and all plank themes
 Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
-##Change from bash to zsh in your terminal
+## Change from bash to zsh in your terminal
 
 I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via this script.
 
