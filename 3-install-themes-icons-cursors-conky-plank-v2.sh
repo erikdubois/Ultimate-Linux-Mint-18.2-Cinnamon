@@ -19,7 +19,7 @@ sh conky-aureola-v3.sh
 
 # Sardi-extra icons
 
-#sh icons-sardi-extra-v4.sh
+sh icons-sardi-extra-v4.sh
 
 ###############################################################################################
 
