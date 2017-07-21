@@ -201,6 +201,8 @@ I like the breeze snow cursors.
 
 ## Install the plank and download 100+ theme
 
+100+ plank themes
+
 Plank is installed through this script
 
 	1-install-core-software-vx.sh
