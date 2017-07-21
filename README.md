@@ -19,14 +19,11 @@ Or you can use the terminal and the git command
 First update/upgrade your system with mintupdate icon at bottom right.
 
 
-## Kernel, cinnamon and nvidia
+## Kernel
 
 First I upgrade the kernel.
 
 You will find two scripts to upgrade your kernel.
-
-
-### Kernel
 
 Do not forget to type "./" in front of the name.
 
