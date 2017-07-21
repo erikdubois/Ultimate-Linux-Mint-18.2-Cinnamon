@@ -4,7 +4,7 @@ After installing these scripts you will arrive at a different kind of Linux Mint
 
 ![Screenshots](http://i.imgur.com/KdTNgou.jpg)
 
-##Download this github
+## Download this github
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
 Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
@@ -14,19 +14,19 @@ Or you can use the terminal and the git command
 	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.2-Cinnamon
 
 
-##Update your system.
+## Update your system.
 
 First update/upgrade your system with mintupdate icon at bottom right.
 
 
-##Kernel, cinnamon and nvidia
+## Kernel, cinnamon and nvidia
 
 First I upgrade the kernel.
 
 You will find two scripts to upgrade your kernel.
 
 
-###Kernel
+### Kernel
 
 Do not forget to type "./" in front of the name.
 
@@ -36,7 +36,7 @@ Type in the terminal
 	update-to-the-last-stable-4.x.x-latest.sh
 
 
-##Software installation
+## Software installation
 
 We start the installation scripts of all the needed software via the terminal.
 
@@ -140,9 +140,6 @@ There is also a collection of **Sardi Extra** icons at
 
 https://github.com/erikdubois/Sardi-Extra
 
-These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
-
-![Screenshots](http://i.imgur.com/E16dX0C.jpg)
 
 Easy installation with this script
 
@@ -152,23 +149,17 @@ More documentation on http://erikdubois.be/category/sardi-icons/
 
 
 
-##Download the Surfn icons
+## Surfn icons have been installed
 
 For ease of installation I use the script
 
 	- icons-surfn-vx.sh
 
 
-![Screenshots](http://i.imgur.com/Yq1jUDY.jpg)
-
-
-![Screenshots](http://i.imgur.com/JpmraYv.jpg)
-
-
 More info can be found here : https://github.com/erikdubois/Surfn
 
 
-##Install the Aureola conky collection
+##Aureola conky collection has been installed
 
 This is an exercise in writing conky configurations in lua syntax.
 
