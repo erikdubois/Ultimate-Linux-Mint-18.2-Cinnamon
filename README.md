@@ -11,6 +11,7 @@ Go inside the folder and right-click <b>in a blank space</b> to go to the termin
 
 Or you can use the terminal and the git command
 
+	sudo apt install git
 	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.2-Cinnamon
 
 
