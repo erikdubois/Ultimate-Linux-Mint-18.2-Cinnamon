@@ -37,7 +37,7 @@ sh 4-install-distro-specific-software.sh
 ##sh install-atom-v1.sh
 #*sh install-boot-repair-v1.sh
 ##sh install-brackets-v1.sh
-sh install-canon-mg7750-v1.sh
+##sh install-canon-mg7750-v1.sh
 #*sh install-cool-retro-term-v1.sh
 #*install-clipgrab-v1.sh
 ##sh install-dconf-editor-v1.sh
@@ -99,10 +99,6 @@ echo "###################    T H E   E N D      ######################"
 echo "################################################################"
 
 sh hardcodefixer-v1.sh
-
-
-#sh update-to-the-last-stable-4.9-8-v1.sh
-
 
 echo "################################################################"
 echo "###################       IL FINALE       ######################"
