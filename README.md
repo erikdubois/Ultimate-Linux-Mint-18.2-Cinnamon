@@ -166,6 +166,8 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 ## Aureola conky collection has been installed
 
+20 conky's at July 2017.
+
 This is an exercise in writing conky configurations in lua syntax.
 
 Easy installation can be done with this script :
