@@ -167,6 +167,7 @@ Easy installation can be done with this script :
 
 	conky-aureola-vx.sh
 
+Some older examples.
 
 ![Screenshots](http://i.imgur.com/f1N9ZbD.jpg)
 
@@ -246,6 +247,8 @@ They are made on Linux Mint 18 and still apply on 18.1.
 Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
 Check out the movies by clicking here
+
+They are about an older version of Linux Mint. You will see many things have stayed the same. No need to make them again in 18.2.
 
 <a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
 <img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
