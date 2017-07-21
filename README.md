@@ -1,19 +1,8 @@
 # Ultimate Linux Mint 18.2 Serena Cinnamon
 
+After installing these scripts you will arrive at a different kind of Linux Mint.
 
-
-
-TO BE EDITED AT A LATER DATE WHEN IT IS NO LONGER BETA!!!!
-
-
-
-
-
-
-
-Let us first take a screenshot of the initial look of Linux Mint 18.1 Serena Cinnamon
-
-![Screenshots](http://i.imgur.com/Rt4ATgr.png)
+![Screenshots](http://i.imgur.com/KdTNgou.jpg)
 
 ##Download this github
 
@@ -22,25 +11,20 @@ Go inside the folder and right-click <b>in a blank space</b> to go to the termin
 
 Or you can use the terminal and the git command
 
-	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
+	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.2-Cinnamon
 
 
 ##Update your system.
 
-Choose if you like to download from local servers or not.
-
-![Screenshots](http://i.imgur.com/w1HNzxs.jpg)
+First update/upgrade your system with mintupdate icon at bottom right.
 
 
 ##Kernel, cinnamon and nvidia
 
-First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
+First I upgrade the kernel.
 
-If everything is still working we can install the software and start customizing the system.
+You will find two scripts to upgrade your kernel.
 
-As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
-
-I have written a script to automate my installations. 
 
 ###Kernel
 
@@ -49,69 +33,17 @@ Do not forget to type "./" in front of the name.
 Type in the terminal
 
 
-	update-to-the-last-stable-4.x.x-latest.sh 
-
-
-![Screenshots](http://i.imgur.com/3CUtC1X.png)
-
-
-###Cinnamon-nightly or beta version
-
-I never install the beta version on my working computer. You have been warned. Beta's are notoriously not stable.
-
-But it can be your choice to check out what software engineers are developing for the next release and install the very latest cinnamon version today.
-
-There is no script included for this. You will have to do it manually in the terminal.
-
-These lines will add a resource and upgrade cinnamon. Copy/paste every line one by one in the terminal.
-
-	sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
-	sudo apt-get update 
-	sudo apt-get install cinnamon -y
-    sudo apt-get upgrade cinnamon -y
-
-
-
-###Nvidia
-
-The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
-
-Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
-
-You can normally install nvidia drivers without any other source.
-
-Try typing this in the terminal
-
-
-	sudo apt install nvidia    and then press on TAB
-
-
-If for some reason you want other sources for your drivers then check out these two.
-
-* https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
-
-Copy/paste these lines in a terminal to get the latest nvidia drivers.
-
-	sudo add-apt-repository -y ppa:graphics-drivers/ppa
-	sudo apt-get update
-	sudo apt-get install nvidia-340 -y (for example)
-
-* http://nvidia.com
-
-Check on Nvidia.com which driver you should use and install it from there.
-
-Wait for the installation and reboot.
-
-More info when running into problems : http://erikdubois.be/install-latest-nvidia-driver-linux-mint-18/
+	update-to-the-last-stable-4.x.x-latest.sh
 
 
 ##Software installation
 
-We start the installation scripts of all the needed software via the terminal. 
+We start the installation scripts of all the needed software via the terminal.
 
 	1-install-core-software-vx.sh
 	2-install-extra-software-vx.sh
-	3-install-themes-icons-cursors-plank.sh
+	3-install-themes-icons-cursors-conky-plank-vx.sh
+	4-install-distro-specific-software.sh
 
 Do not forget to type "./" in front of the name.
 
@@ -119,7 +51,7 @@ Do not forget to type "./" in front of the name.
 These three scripts will point to some of the other scripts in the folder. So keep them together.
 
 
-The best of them 
+The best of them
 
 	Spotify
 	Sublime Text
@@ -134,24 +66,8 @@ The best of them
 There are other scripts for applications I sometimes need but will not be installed as of yet.
 
 
-##Change the theme to Mint-Y-Dark
 
-Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
-
-    sudo apt install screenfetch
-
-
-![Screenshots](http://i.imgur.com/YO66kdK.png)
-
-Sometimes you can change the present theme to its dark equivalent.
-Follow these steps to check if a dark variant of your theme exist. Best to logoff or reboot to be sure.
-
-![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
-
-This is an example of Sardi icons and dark theme on.
-
-
-## Download the Arc themes
+## Arc Colora themes have been installed
 
 Using the scripts at https://github.com/erikdubois/Arc-Theme-Colora we can change the standard blue colour from Arc to any colour we like.
 
@@ -161,21 +77,14 @@ We can install all the created themes with this script
 
 	theme-arc-colora-collection-3.2-vx.sh
 
-The version of cinnamon is important to have a nice theme or not. 
-Linux Mint 18.1 > cinnamon version 3.2 
+The version of cinnamon is important to have a nice theme or not.
+Linux Mint 18.1 > cinnamon version 3.2
 
 	cinnamon --version
 
 
-**Arc-Dark-Orange**
 
-![Screenshots](http://i.imgur.com/mNenIjf.jpg)
-
-Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
-
-
-
-## Download the Mint-Y themes
+## Mint-Y themes have been installed
 
 Using the scripts at https://github.com/erikdubois/Mint-Y-Colora-Theme we can change the standard green colour from Mint-Y to any colour we like.
 
@@ -185,22 +94,18 @@ We can install all the created themes with this script
 
 	theme-mint-y-colora-collection-3.2-vx.sh
 
-The version of cinnamon is important to have a nice theme or not. 
-Linux Mint 18.1 > cinnamon version 3.2 
+The version of cinnamon is important to have a nice theme or not.
+Linux Mint 18.1 > cinnamon version 3.2
 
 	cinnamon --version
 
-**Mint-Y-Arc-Dark**
-
-![Screenshots](http://i.imgur.com/f5116nb.jpg)
-
-Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
-##Download the Sardi icons
+## Sardi icons have been installed
 
 
-Sardi icon collection can be downloaded at  sourceforge.
+Sardi icon collection can be downloaded at sourceforge. 20 icon themes in one.
+6 different application icons and 11 kind of folders
 
 http://sourceforge.net/projects/sardi/
 
@@ -228,13 +133,10 @@ Sardi is **meant to be changed by the users**. You can use scripts to change the
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
 
-![Screenshots](http://i.imgur.com/XvoHtzL.jpg)
 
+##Sardi-extra icons have been installed
 
-
-##Download the Sardi-extra icons
-
-There is also a collection of **Sardi Extra** icons at 
+There is also a collection of **Sardi Extra** icons at
 
 https://github.com/erikdubois/Sardi-Extra
 
@@ -309,7 +211,7 @@ and put in on top. Standard you will have only 3 themes.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
-If you want to install 100+ plank themes, you need to run this script : 
+If you want to install 100+ plank themes, you need to run this script :
 
 	plank-themes-vx.sh
 
@@ -341,7 +243,7 @@ Remember to type this in the terminal
 
 Log off or reboot.
 
-# Youtube Resources 
+# Youtube Resources
 
 Content Playlist of 100+ short movies to make your desktop eye-candy.
 Sardi icon collection playing its part.
@@ -373,14 +275,14 @@ https://sourceforge.net/projects/sardi/files/
 https://github.com/erikdubois/Surfn
 
 **Aureola conky**
-	
+
 http://erikdubois.be/category/linux/aureola/
 
 https://github.com/erikdubois/Aureola
 
 **Arc Colora**
 
-http://erikdubois.be/category/themes/arc-based-themes/	
+http://erikdubois.be/category/themes/arc-based-themes/
 
 https://github.com/erikdubois/Arc-Theme-Colora
 
@@ -410,7 +312,7 @@ Since I sometimes forget to make the script executable, I include here what you 
 
 A script can only run when it is marked as an executable.
 
-	ls -al 
+	ls -al
 
 Above code will reveal if a script has an "x". X meaning executable.
 Google "chmod" and "execute" and you will find more info.
@@ -435,6 +337,3 @@ You can do whatever <b>Y O U</b> want.
 
 Share the knowledge.
 ------------------------------------
-
-
-
