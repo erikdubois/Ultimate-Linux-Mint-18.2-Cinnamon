@@ -154,6 +154,8 @@ More documentation on http://erikdubois.be/category/sardi-icons/
 
 ## Surfn icons have been installed
 
+17 different icons at July 2017.
+
 For ease of installation I use the script
 
 	- icons-surfn-vx.sh
