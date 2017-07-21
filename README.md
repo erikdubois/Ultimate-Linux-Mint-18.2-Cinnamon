@@ -137,7 +137,7 @@ Colour codes can be figured out locally with gpick or online via http://www.colo
 
 ## Sardi-extra icons have been installed
 
-103 Sardi Extra icons.
+103 Sardi Extra icons July 2017.
 
 There is also a collection of **Sardi Extra** icons at
 
