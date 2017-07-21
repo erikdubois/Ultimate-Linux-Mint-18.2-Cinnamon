@@ -12,7 +12,7 @@
 rm -rf /tmp/Mint-Y-Colora-Theme-Collection
 git clone https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection /tmp/Mint-Y-Colora-Theme-Collection
 find /tmp/Mint-Y-Colora-Theme-Collection -maxdepth 1 -type f -exec rm -rf '{}' \;
-cp -r /tmp/Mint-Y-Colora-Theme-Collection/Cinnamon\ 3.2/* ~/.themes/
+cp -r /tmp/Mint-Y-Colora-Theme-Collection/Cinnamon\ 3.4/* ~/.themes/
 rm -rf /tmp/Mint-Y-Colora-Theme-Collection
 
 
