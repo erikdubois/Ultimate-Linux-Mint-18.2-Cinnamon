@@ -137,6 +137,8 @@ Colour codes can be figured out locally with gpick or online via http://www.colo
 
 ## Sardi-extra icons have been installed
 
+103 Sardi Extra icons.
+
 There is also a collection of **Sardi Extra** icons at
 
 https://github.com/erikdubois/Sardi-Extra
