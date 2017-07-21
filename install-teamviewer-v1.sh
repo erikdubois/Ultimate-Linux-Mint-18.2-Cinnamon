@@ -21,7 +21,7 @@ sudo dpkg -i /tmp/teamviewer_i386.deb
 
 rm /tmp/teamviewer_i386.deb
 
-
+sudo apt-get -f install
 
 echo "################################################################"
 echo "##############       teamviewer installed      #################"
