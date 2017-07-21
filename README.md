@@ -237,6 +237,11 @@ Log off or reboot.
 
 # Youtube Resources
 
+This is the playlist on youtube for Linux Mint 18.2 cinnamon
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS6Di4p2KpN9ckmyq3YFvMg1
+
+
 Content Playlist of 100+ short movies to make your desktop eye-candy.
 Sardi icon collection playing its part.
 
