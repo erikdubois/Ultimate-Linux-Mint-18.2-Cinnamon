@@ -101,7 +101,10 @@ Linux Mint 18.1 > cinnamon version 3.2
 ## Sardi icons have been installed
 
 
-Sardi icon collection can be downloaded at sourceforge. 20 icon themes in one.
+Sardi icon collection can be downloaded at sourceforge.
+
+20 icon themes in one.
+
 6 different application icons and 11 kind of folders
 
 http://sourceforge.net/projects/sardi/
