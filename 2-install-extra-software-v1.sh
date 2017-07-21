@@ -87,7 +87,7 @@ sh install-variety-v1.sh
 
 # Vivaldi
 
-sh install-vivaldi-v2.sh
+sh install-vivaldi-snapshot-v1.sh
 
 ###############################################################################################
 

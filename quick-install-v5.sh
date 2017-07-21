@@ -17,6 +17,7 @@ sudo apt upgrade -y
 sh 1-install-core-software-v2.sh
 sh 2-install-extra-software-v1.sh
 sh 3-install-themes-icons-cursors-conky-plank-v2.sh
+sh 4-install-distro-specific-software.sh
 
 ### use of hashtags
 ### one hashtag application is in sh 1-install-core-software-v1.sh
@@ -73,7 +74,7 @@ sh install-canon-mg7750-v1.sh
 #*install-ubuntu-cleaner-v1.sh
 #*sh install-ukuu-v1.sh
 ##sh install-variety-v1.sh
-#*sh install-virtual-box-v1.sh
+sh install-virtual-box-v2.sh
 #*sh install-visual-studio-code-v1.sh
 ##sh install-vivaldi-v2.sh
 #*sh install-wire-v1.sh
